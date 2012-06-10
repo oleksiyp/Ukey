@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.ukey"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/usmall">
+        <activity android:name="USmallKeyActivity"
+                  android:label="@string/usmall_name"
+                  android:theme="@android:style/Theme.NoDisplay"
+                  android:icon="@drawable/usmall">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="UBigKeyActivity"
+                  android:label="@string/ubig_name"
+                  android:theme="@android:style/Theme.NoDisplay"
+                  android:icon="@drawable/ubig">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
