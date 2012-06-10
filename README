@@ -1,1 +1,2 @@
-This file was created by IntelliJ IDEA 10.5.2 for binding GitHub repository
+This small application adds two icons(upper and lower case) of russian letter "YU".
+It is a workaround for htc chacha keyboard that skipped this letters.
